@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+
+    android:orientation="vertical" >
+
+
+
+    <TextView
+
+        android:id="@+id/textView1"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:text="@string/vala"
+
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+
+
+    <EditText
+
+        android:id="@+id/etValueA"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+
+        android:ems="10"
+
+        android:inputType="numberSigned" />
+
+
+
+    <TextView
+
+        android:id="@+id/textView2"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:text="@string/valb"
+
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+
+
+    <EditText
+
+        android:id="@+id/etValueB"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+
+        android:ems="10"
+
+        android:inputType="numberSigned" >
+
+
+
+        <requestFocus />
+
+    </EditText>
+
+
+
+    <TextView
+
+        android:id="@+id/textView3"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:text="@string/res"
+
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+
+
+    <EditText
+
+        android:id="@+id/etResult"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+
+        android:ems="10"
+
+        android:inputType="numberDecimal" />
+
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+
+        android:orientation="horizontal" >
+
+
+
+        <Button
+
+            android:onClick="doCalculate"
+
+            android:id="@+id/btAdd"
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:text="@string/btadd" />
+
+
+
+        <Button
+
+            android:onClick="doCalculate"
+
+            android:id="@+id/btSub"
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:text="@string/btsub" />
+
+
+
+        <Button
+
+            android:onClick="doCalculate"
+
+            android:id="@+id/btMulti"
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:text="@string/btmul" />
+
+
+
+        <Button
+
+            android:onClick="doCalculate"
+
+            android:id="@+id/btDivide"
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:text="@string/btdiv" />
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

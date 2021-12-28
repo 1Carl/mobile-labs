@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">moblab9</string>
+    <string name="title_activity_maps">moblab9</string>
+    <string name="normal">normal</string>
+    <string name="hybrid">hybrid</string>
+    <string name="terrain">terrain</string>
+    <string name="satellite">satellite</string>
+    <string name="distance">Distance</string>
+</resources>

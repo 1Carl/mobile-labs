@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Index">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/mongolian" />
+
+            <TextView
+                android:id="@+id/mongolian"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/foreign" />
+
+            <TextView
+                android:id="@+id/foreign"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="250dp"
+            android:orientation="horizontal"
+            android:padding="10sp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+                <Button
+                    android:onClick="btnclicked"
+                    android:id="@+id/previous"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:text="@string/previous" />
+
+                <Button
+                    android:onClick="btnclicked"
+                    android:id="@+id/edit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginHorizontal="10sp"
+                    android:text="@string/fix" />
+
+                <Button
+                    android:onClick="btnclicked"
+                    android:id="@+id/plus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:text="@string/plus" />
+
+                <Button
+                    android:onClick="btnclicked"
+                    android:id="@+id/delete"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginHorizontal="10sp"
+                    android:text="@string/delete" />
+
+                <Button
+                    android:onClick="btnclicked"
+                    android:id="@+id/next"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50sp"
+                    android:text="@string/next" />
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

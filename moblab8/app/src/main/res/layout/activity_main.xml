@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        <Button
+            android:id="@+id/ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/days5"
+            style="?android:attr/buttonBarButtonStyle" />
+        <Button
+            android:id="@+id/hrs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hours3"
+            style="?android:attr/buttonBarButtonStyle" />
+        <Button
+            android:id="@+id/citiesnow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_5_cities_now"
+            style="?android:attr/buttonBarButtonStyle" />
+    </LinearLayout>
+    <LinearLayout
+        android:background="@drawable/border"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1"
+        >
+        <ListView
+            android:id="@+id/flist"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <LinearLayout
+        android:background="@drawable/border"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1"
+        >
+        <ListView
+            android:id="@+id/slist"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+             />
+    </LinearLayout>
+    <LinearLayout
+        android:background="@drawable/border"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1"
+        >
+        <ListView
+            android:id="@+id/tlist"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+    </LinearLayout>
+</LinearLayout>

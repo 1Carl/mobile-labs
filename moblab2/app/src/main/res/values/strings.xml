@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="btadd">Add</string>
+    <string name="btdiv">Divide</string>
+    <string name="btsub">Subtract</string>
+    <string name="btmul">Multiplication</string>
+    <string name="vala">Value A</string>
+    <string name="valb">Value B</string>
+    <string name="res">Result</string>
+</resources>

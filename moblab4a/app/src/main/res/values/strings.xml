@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">moblab4a</string>
+    <string name="mongolian">Монгол үг</string>
+    <string name="foreign">Гадаад үг</string>
+    <string name="fix">Засах</string>
+    <string name="plus">+</string>
+    <string name="delete">Устгах</string>
+    <string name="next"><![CDATA[>>]]></string>
+    <string name="previous"><![CDATA[<<]]></string>
+    <string name="preference_file_key">mode</string>
+    <string name="cancel">Cancel</string>
+    <string name="change_mode">Change Mode</string>
+    <string name="onlyMongolian">Монгол үгийг ил харуулах</string>
+    <string name="both">Хоёуланг нь ил харуулах</string>
+    <string name="onlyForeign">Гадаад үгийг ил харуулах</string>
+    <string name="ok">ok</string>
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.moblab5">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Moblab4a">
+        <provider
+            android:authorities="com.example.moblab5.provider.TranslationProvider"
+            android:grantUriPermissions="true"
+            android:exported="true"
+            android:enabled="true"
+            android:name=".provider.TranslationProvider" />
+        <activity
+            android:name="com.example.moblab5.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.moblab5.Translate"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.TRANSLATE" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.moblab5.ChangeMode"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.CHANGEMODE" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

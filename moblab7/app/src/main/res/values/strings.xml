@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">lab7</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="ovog">Lastname</string>
+    <string name="ner">FirstName</string>
+    <string name="textOvog">Lastname</string>
+    <string name="textNer">FirstName</string>
+    <string name="textHuis">Gender</string>
+    <string name="textMergejil">Job</string>
+    <string name="zeregtsol">Degree</string>
+    <string name="zaadag_hicheel">Class</string>
+    <string name="hadgalah">Save</string>
+    <string name="surguuli">School</string>
+    <string name="angi">Major</string>
+    <string name="kurs">grade</string>
+    <string name="golch">GPA</string>
+    <string-array name="huis_array">
+        <item>huis</item>
+        <item>Male</item>
+        <item>Female</item>
+        <item>Others</item>
+    </string-array>
+    <string-array name="mergejil_array">
+        <item>job</item>
+        <item>Teacher</item>
+        <item>Student</item>
+    </string-array>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Add"
+        android:id="@+id/btAdd1" />
+    <item android:title="Sub"
+        android:id="@+id/btSub1" />
+    <item android:title="Multi"
+        android:id="@+id/btMulti1" />
+    <item android:title="Div"
+        android:id="@+id/btDivide1" />
+</menu>

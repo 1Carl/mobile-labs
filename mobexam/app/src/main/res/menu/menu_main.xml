@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.mobexam.MainActivity">
+    <item
+        android:id="@+id/postowner"
+        android:orderInCategory="100"
+        android:title="@string/postowner"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/postcar"
+        android:orderInCategory="100"
+        android:title="@string/postcar"
+        app:showAsAction="never" />
+</menu>

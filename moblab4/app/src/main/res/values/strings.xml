@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">moblab4</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="signup">Sign Up</string>
+    <string name="title_activity_signup">signup</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="male_or_female">Male or Female</string>
+    <string name="change_information">Change Information</string>
+    <string name="change_password">Change Password</string>
+    <string name="current_password">Current Password</string>
+    <string name="new_password">New Password</string>
+    <string name="re_enter_password">Re-enter Password</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
+    <string name="age">age</string>
+    <string name="phoneno">phoneNo</string>
+</resources>
