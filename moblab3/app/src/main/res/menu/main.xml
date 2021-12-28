@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="@string/flayout"
+        android:id="@+id/flayout" />
+    <item
+        android:title="@string/llayout"
+        android:id="@+id/llayout" />
+    <item
+        android:title="@string/tlayout"
+        android:id="@+id/tlayout" />
+    <item
+        android:title="@string/rlayout"
+        android:id="@+id/rlayout" />
+</menu>

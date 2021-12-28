@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <Button
+        android:onClick="buttonClicked"
+        android:text="@string/flayout"
+        android:id="@+id/flayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:onClick="buttonClicked"
+        android:text="@string/llayout"
+        android:id="@+id/llayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:onClick="buttonClicked"
+        android:text="@string/tlayout"
+        android:id="@+id/tlayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:onClick="buttonClicked"
+        android:text="@string/rlayout"
+        android:id="@+id/rlayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:onClick="buttonClicked"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/call"
+        android:text="make a call" />
+    <Button
+        android:onClick="buttonClicked"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/image"
+        android:text="request a image" />
+    <Button
+        android:onClick="buttonClicked"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/video"
+        android:text="find something" />
+</LinearLayout>
